@@ -10,7 +10,6 @@
             padding: 0;
             background-color: #f0f0f0;
         }
-
         .header {
             background-color: #001f3f;
             color: #fff;
@@ -23,14 +22,12 @@
     		padding: 10px;
     		text-align: center;
 	}
-
         .container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
             padding: 20px;
         }
-
         .item {
             text-align: center;
             background-color: #fff;
@@ -38,18 +35,23 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-
         .item img {
             max-width: 100%;
             border-radius: 4px;
         }
-
         .item a {
             display: block;
             margin-top: 10px;
             color: #007BFF;
             text-decoration: none;
             font-weight: bold;
+        }
+	.item .project-title {
+    	    font-size: 1.2em; 
+    	    font-weight: bold; 
+	}
+	.item .project-description {
+    	    font-size: 1em;
         }
     </style>
     <title>Portfolio Wouter</title>
@@ -67,37 +69,37 @@
     <div class="container">
         <div class="item">
             
-            <p>Weerstation API</p>
-	    <p>Een API programma dat een actueel weerbericht schrijft voor locaties in Nederland.</p>
+            <p class="project-title">Weerstation API</p>
+	    <p class="project-description">Een API programma dat een actueel weerbericht schrijft voor locaties in Nederland.</p>
             <a href="https://github.com/Omegastar19/Weerstation-API" target="_blank">[Ga naar project] </a>
         </div>
         <div class="item">
             
-            <p>Overheids-data API</p>
-	    <p>Een API programma dat informatie over gedetineerden in Nederland uit een overheids-database ophaalt en weergeeft.</p>
+            <p class="project-title">Overheids-data API</p>
+	    <p class="project-description">Een API programma dat informatie over gedetineerden in Nederland uit een overheids-database ophaalt en weergeeft.</p>
             <a href="https://github.com/Omegastar19/Overheid-data-API" target="_blank">[Ga naar project] </a>
         </div>
         <div class="item">
 		        
-            <p>Wikipedia API</p>
-	    <p>Een API programma dat een samenvatting geeft van het Wikipedia-artikel 'van de dag'.</p>
+            <p class="project-title">Wikipedia API</p>
+	    <p class="project-description">Een API programma dat een samenvatting geeft van het Wikipedia-artikel 'van de dag'.</p>
             <a href="https://github.com/Omegastar19/Wikipedia-data" target="_blank">[Ga naar project]</a>
         </div>
         <div class="item">    
-            <p>Ruimtelijke Figuren</p>
-	    <p>Een reeks programma's waarmee de omtrek, inhoud en oppervlakte van verschillende ruimtelijke figuren berekent kan worden.</p>
+            <p class="project-title">Ruimtelijke Figuren</p>
+	    <p class="project-description">Een reeks programma's waarmee de omtrek, inhoud en oppervlakte van verschillende ruimtelijke figuren berekent kan worden.</p>
             <a href="https://github.com/Omegastar19/Ruimtelijke-Figuren" target="_blank">[Ga naar project]</a>
         </div>
         <div class="item">
             
-            <p>Wachtwoorden genereren</p>
-	    <p>Een programma waarmee een serie veilige en complexe wachtwoorden gegenereerd kan worden. Dit programma is een onderdeel van het Data Encryptie project hiernaast.</p>
+            <p class="project-title">Wachtwoorden genereren</p>
+	    <p class="project-description">Een programma waarmee een serie veilige en complexe wachtwoorden gegenereerd kan worden. Dit programma is een onderdeel van het Data Encryptie project hiernaast.</p>
             <a href="https://github.com/Omegastar19/Wachtwoorden" target="_blank">[Ga naar project]</a>
         </div>
         <div class="item">
             
-            <p>Data Encryptie</p>
-	    <p>Een groepsopdracht waarmee stukken tekst kunnen worden vertaald, encrypted, en doorgestuurd naar andere PC's in het netwerk.</p>	
+            <p class="project-title">Data Encryptie</p>
+	    <p class="project-description">Een groepsopdracht waarmee stukken tekst kunnen worden vertaald, encrypted, en doorgestuurd naar andere PC's in het netwerk.</p>	
             <a href="https://github.com/marnixnieswaag/Data_Encrypter" target="_blank">[Ga naar project]</a>
         </div>
 
